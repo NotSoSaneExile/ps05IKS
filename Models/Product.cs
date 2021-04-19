@@ -10,8 +10,6 @@ namespace ps05IKS.Models
 {
     public class Product
     {
-        [Key]
-        public int IdKey { get; set; }
         [Required]
         public string Id { get; set; }
         [Required]
